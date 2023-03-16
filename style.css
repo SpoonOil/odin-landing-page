@@ -1,0 +1,51 @@
+body {
+    height: 100%;
+    padding: 0;
+    margin:0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+.header {
+    background-color: #1F2937;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    color: white;
+}
+
+.header-links {
+    margin-left: auto;
+}
+
+.header-links>a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.hero-container, .content-container, .quote-container, .footer-container {
+    flex: 1;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    align-self: stretch;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%
+
+}
+
+.content {
+    display: flex;
+}
