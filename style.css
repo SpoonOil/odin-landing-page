@@ -143,3 +143,25 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote {
+    width: 60%;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0;
+    font-weight: 300;
+    font-style: italic;
+}
+.quote-author-text {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: end;
+}
