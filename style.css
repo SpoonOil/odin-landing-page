@@ -101,6 +101,15 @@
     align-content: center;
     justify-content: center;
 }
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    height:75%
+}
+
 .content-header {
     text-align: center;
     font-weight: 1000;
