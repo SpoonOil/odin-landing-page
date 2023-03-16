@@ -54,7 +54,7 @@
 
 .hero-text {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 1000;
     margin:0;
 }
 
@@ -95,6 +95,18 @@
     min-width: 0px;
 }
 
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.content-header {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 36px;
+}
+
 .quote-container {
     background-color: #E5E7EB;
  
@@ -111,4 +123,23 @@ body {
 
 .content {
     display: flex;
+    justify-content: space-evenly
+}
+.image>img {
+    border: solid #3882F6 3px;
+    border-radius: 10px;
+}
+
+.snippet-text {
+    font-size: 18px;
+    color: #1F2937;
+    margin: 0;
+    text-align: center;
+}
+.snippet {
+    width:170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
