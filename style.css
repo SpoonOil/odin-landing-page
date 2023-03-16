@@ -2,13 +2,26 @@
 .header {
     background-color: #1F2937;
     display: flex;
-    padding: 0 300px;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     color: white;
     justify-content: space-between;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
 }
 
 .header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter
 }
 
 .header-links>a {
@@ -36,6 +49,7 @@
     gap: 50px;
     justify-content: center;
     height: 60%;
+    padding: 0 10px;
 }
 
 .hero-text {
@@ -62,6 +76,7 @@
 }
 
 .hero-left>button {
+    
     width:125px;
     border: none;
     border-radius: 7px;
@@ -71,11 +86,13 @@
     font-size: 18px;
     font-weight: bold;
     text-align: baseline;
+    height:40px;
 }
 
 .hero-image>img {
     flex: 1 1 0;
     max-width: 500%;
+    min-width: 0px;
 }
 
 .quote-container {
